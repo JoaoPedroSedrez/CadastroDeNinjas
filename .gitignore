@@ -31,5 +31,7 @@ build/
 
 .env
 
+data/
+
 ### VS Code ###
 .vscode/
