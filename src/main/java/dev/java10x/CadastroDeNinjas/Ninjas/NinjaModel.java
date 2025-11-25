@@ -5,16 +5,12 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
-
 @Entity
 @Table(name = "tb_cadastro")
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 public class NinjaModel {
-
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -36,5 +32,4 @@ public class NinjaModel {
     @ManyToOne
     @JoinColumn(name = "id_missao")
     private MissaoModel missoes;
-
 }
