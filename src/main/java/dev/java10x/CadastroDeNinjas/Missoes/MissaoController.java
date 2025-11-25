@@ -27,7 +27,7 @@ public class MissaoController {
         return "Missao alterada com sucesso!";
     }
 
-    @DeleteMapping("/deletarId")
+    @DeleteMapping("/deletarID")
     public String deletarMissao(){
         return "Missao deletada com sucesso!";
     }
